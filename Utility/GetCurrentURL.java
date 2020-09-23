@@ -1,6 +1,7 @@
 package Utility;
 
 import Constants.K;
+import Constants.URL;
 import Pages.IndexPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class GetCurrentURL {
     public static String getWomenSummerDressURL() {
         WebDriver driver = new ChromeDriver();
-        driver.get(K.url);
+        driver.get(URL.url);
 
         Utility.mouseHover(driver, IndexPage.getWomenMenu(driver));
         IndexPage.clickSummerDress(driver);
@@ -17,7 +18,7 @@ public class GetCurrentURL {
 
     public static String getDressSummerDressURL() {
         WebDriver driver = new ChromeDriver();
-        driver.get(K.url);
+        driver.get(URL.url);
 
         Utility.mouseHover(driver, IndexPage.getDressMenu(driver));
         IndexPage.clickSummerDressSub(driver);

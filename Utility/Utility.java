@@ -13,7 +13,7 @@ public class Utility {
         hover.build().perform();
     }
 
-    public static void scrollDown(WebDriver driver){
+    public static void scrollDown(WebDriver driver) {
         Actions scroll = new Actions(driver);
         scroll.sendKeys(Keys.PAGE_DOWN);
         scroll.build().perform();

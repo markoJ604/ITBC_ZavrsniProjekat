@@ -28,4 +28,8 @@ public class PreOrder {
     public static void addToCart (WebDriver driver){
         driver.findElement(By.xpath(K.addToCartXpath)).click();
     }
+
+    public static void proceedToCheckout (WebDriver driver){
+        driver.findElement(By.xpath(K.proceedToCheckXpath)).click();
+    }
 }
