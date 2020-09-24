@@ -11,7 +11,6 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
-import org.testng.asserts.SoftAssert;
 
 import java.io.FileInputStream;
 import java.util.concurrent.TimeUnit;

@@ -18,7 +18,6 @@ public class TestURLs {
         System.setProperty("webdriver.chrome.driver", "chromedriver-2");
     }
 
-
     @BeforeMethod
     public void setDriver() {
         driver = new ChromeDriver();

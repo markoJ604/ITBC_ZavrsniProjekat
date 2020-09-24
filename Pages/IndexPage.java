@@ -5,14 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.net.URL;
-
 public class IndexPage {
-
-//    public static URL indexURL(){
-//        return driver
-//
-//    }
 
     public static WebElement getWomenMenu(WebDriver driver) {
         return driver.findElement(By.xpath(K.womenMenuXpath));
@@ -42,23 +35,23 @@ public class IndexPage {
         driver.findElement(By.xpath(K.searchBarSearchXpath)).click();
     }
 
-    public static void clickContactus(WebDriver driver){
+    public static void clickContactus(WebDriver driver) {
         driver.findElement(By.xpath(K.contactusXpath)).click();
     }
 
-    public static void clickFacebook(WebDriver driver){
+    public static void clickFacebook(WebDriver driver) {
         driver.findElement(By.xpath(K.facebookXpath)).click();
     }
 
-    public static void clickTwitter(WebDriver driver){
+    public static void clickTwitter(WebDriver driver) {
         driver.findElement(By.xpath(K.twitterXpath)).click();
     }
 
-    public static void clickYoutube(WebDriver driver){
+    public static void clickYoutube(WebDriver driver) {
         driver.findElement(By.xpath(K.youtubeXpath)).click();
     }
 
-    public static void clickGoogleplus(WebDriver driver){
+    public static void clickGoogleplus(WebDriver driver) {
         driver.findElement(By.xpath(K.googleplusXpath)).click();
     }
 }

@@ -1,12 +1,10 @@
 package Pages;
 
 import Constants.K;
-import Constants.URL;
 import Utility.Utilities;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class SummerDress {
@@ -40,7 +38,5 @@ public class SummerDress {
         IndexPage.clickSummerDressSub(driver);
         return driver.getCurrentUrl();
     }
-
-
 }
 

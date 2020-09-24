@@ -1,11 +1,10 @@
 package Constants;
-
+//Class URL holds urls to different Web pages
 public class URL {
     public static final String url = "http://automationpractice.com/index.php";
     public static final String summerDressURL = "http://automationpractice.com/index.php?id_category=11&controller=category";
     public static final String searchResults = "3 results have been found.";
     public static final String yellowItemStyle = "background: rgb(241, 196, 15);";
-    public static final String successMessageTitle = "Contact us - My Store";
     public static final String facebookURL = "https://www.facebook.com/groups/525066904174158/";
     public static final String twitterURL = "https://twitter.com/seleniumfrmwrk";
     public static final String youtubeURL = "https://www.youtube.com/channel/UCHl59sI3SRjQ-qPcTrgt0tA";

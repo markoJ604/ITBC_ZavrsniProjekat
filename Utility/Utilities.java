@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+//Various utilities to help navigate around Web page
+
 public class Utilities {
 
     public static void mouseHover(WebDriver driver, WebElement element) {

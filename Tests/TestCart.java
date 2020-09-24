@@ -39,11 +39,9 @@ public class TestCart {
         PreOrder.selectFromDropDown(driver, "M");
         PreOrder.addToCart(driver);
         PreOrder.proceedToCheckout(driver);
-
         sa.assertEquals(CheckOut.getItemDesc(driver), K.itemDesriptionLink);
         sa.assertEquals(CheckOut.getItemColorSize(driver), K.itemColorSizeLink);
         sa.assertEquals(CheckOut.getItemQty(driver), "2");
-
         sa.assertAll();
     }
 
@@ -58,7 +56,6 @@ public class TestCart {
         sa.assertEquals(SearchResults.yellowItem1(driver).getAttribute("style"), URL.yellowItemStyle);
         sa.assertEquals(SearchResults.yellowItem2(driver).getAttribute("style"), URL.yellowItemStyle);
         sa.assertEquals(SearchResults.yellowItem3(driver).getAttribute("style"), URL.yellowItemStyle);
-
         sa.assertAll();
     }
 
