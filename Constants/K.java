@@ -31,7 +31,11 @@ public class K {
     public static final String sendXpath = "//span[contains(text(),'Send')]";
     public static final String messageBodyXpath = "//textarea[@id='message']";
     public static final String messageStatusXpath = "//p[@class='alert alert-success']";
-
+    //
+    public static final String facebookXpath = "//li[@class='facebook']//a";
+    public static final String twitterXpath = "//li[@class='twitter']//a";
+    public static final String youtubeXpath = "//li[@class='youtube']//a";
+    public static final String googleplusXpath = "//li[@class='google-plus']//a";
 }
 
 

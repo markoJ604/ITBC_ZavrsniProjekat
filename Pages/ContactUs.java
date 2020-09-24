@@ -12,7 +12,7 @@ public class ContactUs {
         return driver.findElement(By.xpath(K.subjectHeadingXpath));
     }
 
-    public static void selectSubjectHeading(WebDriver driver, String value){
+    public static void selectSubjectHeading(WebDriver driver, String value) {
         Select select = new Select(getSubjectHeading(driver));
         select.selectByVisibleText(value);
     }
@@ -49,11 +49,11 @@ public class ContactUs {
         getMessageBody(driver).sendKeys(value);
     }
 
-    public static void clickSend(WebDriver driver){
+    public static void clickSend(WebDriver driver) {
         driver.findElement(By.xpath(K.sendXpath)).click();
     }
 
-    public static WebElement messageStatus(WebDriver driver){
+    public static WebElement messageStatus(WebDriver driver) {
         return driver.findElement(By.xpath(K.messageStatusXpath));
     }
 }

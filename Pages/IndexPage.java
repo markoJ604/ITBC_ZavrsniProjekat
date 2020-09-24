@@ -46,4 +46,19 @@ public class IndexPage {
         driver.findElement(By.xpath(K.contactusXpath)).click();
     }
 
+    public static void clickFacebook(WebDriver driver){
+        driver.findElement(By.xpath(K.facebookXpath)).click();
+    }
+
+    public static void clickTwitter(WebDriver driver){
+        driver.findElement(By.xpath(K.twitterXpath)).click();
+    }
+
+    public static void clickYoutube(WebDriver driver){
+        driver.findElement(By.xpath(K.youtubeXpath)).click();
+    }
+
+    public static void clickGoogleplus(WebDriver driver){
+        driver.findElement(By.xpath(K.googleplusXpath)).click();
+    }
 }
