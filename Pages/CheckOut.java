@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+//------- CheckOut page, methods to check size and quantity of chosen item -------
+
 public class CheckOut {
 
     public static String getItemDesc(WebDriver driver) {

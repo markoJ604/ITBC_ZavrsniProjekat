@@ -3,35 +3,36 @@ Testira se sajt http://automationpractice.com/index.php.
 Za rad sa elementima koji se nalaze na web stranici koristiti Selenium, a za pisanje testova TestNG.
 Primeniti Page Object Model.
 
-DONE! Testirati da li kada se na početnoj stranici sajta mišem stane na dugme WOMEN, a zatim odatle odabere
+1. Testirati da li kada se na početnoj stranici sajta mišem stane na dugme WOMEN, a zatim odatle odabere
 SummerDresses odlazi na korektnu stranu.
 
-DONE! Testirati da li kada se na početnoj stranici sajta mišem stane na dugme DRESSES, a zatim odatle odabere
+2. Testirati da li kada se na početnoj stranici sajta mišem stane na dugme DRESSES, a zatim odatle odabere
 SUMMER DRESSES odlazi na korektnu stranu.
 
-DONE! Proverite da li prethodne dve tačke vode na istu stranicu.
+3. Proverite da li prethodne dve tačke vode na istu stranicu.
 
-DONE! Odabrati drugu haljinu koja se nalazi u Summer Dresses ponudi. Staviti u korpu dve takve haljine,
+4. Odabrati drugu haljinu koja se nalazi u Summer Dresses ponudi. Staviti u korpu dve takve haljine,
 M veličine u beloj boji.
 
-DONE! Proveriti da li se u korpi zaista nalaze dve haljine sa odgovarajućim nazivom,  u beloj boji, M veličine.
+5. Proveriti da li se u korpi zaista nalaze dve haljine sa odgovarajućim nazivom,  u beloj boji, M veličine.
 
-DONE! Testirati da li radi ‘search’ bar. Ukucati ‘yellow’ i ispitati rezultat pretrage. Očekivan ishod je
+6. Testirati da li radi ‘search’ bar. Ukucati ‘yellow’ i ispitati rezultat pretrage. Očekivan ishod je
 prikaz tri artikla, pri čemu svaki od njih ima mogućnost odabira žute boje.
 
-DONE! Kliknuti na “Contact us” i proveriti formu za slanje korisničkih pitanja.
+7. Kliknuti na “Contact us” i proveriti formu za slanje korisničkih pitanja.
 
-DONE! Proveriti da li ikonice koje se nalaze u meniju na kraju stranice vode na odgovarajuće adrese
+8. Proveriti da li ikonice koje se nalaze u meniju na kraju stranice vode na odgovarajuće adrese
 (ikonice za Facebook, Twitter, YouTube...)
 
-DONE! Pronaći kako da se automatski izgeneriše set podataka, i kreirati xlsx ili xls fajl koji je popunjen
+9. Pronaći kako da se automatski izgeneriše set podataka, i kreirati xlsx ili xls fajl koji je popunjen
 podacima potrebnim za slanje 30 pitanja.
 
-DONE! Poslati 30 pitanja pri čemu se podaci o svakoj poruci čitaju iz xlsx ili xls fajla. Za svaku poruku
+10. Poslati 30 pitanja pri čemu se podaci o svakoj poruci čitaju iz xlsx ili xls fajla. Za svaku poruku
 proveriti da li je slanje bilo uspešno.
 
 Napisati Bug Report.
-
+Comment: Check BugReport.xlsx. MJ
 
 Bonus:
 Napraviti jedan test suite pomoću koga će se pokrenuti testovi iz svih TestNG klasa.
+Comment: Check testng.xml. MJ

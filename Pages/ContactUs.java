@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+//------- Methods to get elements on Contact Us page -------
+
 public class ContactUs {
 
     public static WebElement getSubjectHeading(WebDriver driver) {

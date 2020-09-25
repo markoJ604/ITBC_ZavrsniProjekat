@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+// ------- Methods to get to various items on Summer Dresses page -------
+
 public class SummerDress {
 
     public static WebElement colorPicker(WebDriver driver) {

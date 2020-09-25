@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+// ------- Index page, here are methods to get links, search bar, and social network icons -------
+
 public class IndexPage {
 
     public static WebElement getWomenMenu(WebDriver driver) {

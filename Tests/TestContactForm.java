@@ -1,5 +1,6 @@
 package Tests;
 
+import Constants.K;
 import Constants.URL;
 import Pages.ContactUs;
 import Pages.IndexPage;
@@ -23,12 +24,13 @@ public class TestContactForm {
 
     @BeforeMethod
     public void setDriver() {
-        System.setProperty("webdriver.chrome.driver", "chromedriver-2");
         driver = new ChromeDriver();
         driver.get(URL.url);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     }
+
+    // ------- Test 7 --------
 
     @Test
     public void singleContactForm() throws InterruptedException {
@@ -42,6 +44,8 @@ public class TestContactForm {
         Thread.sleep(1000);
         Assert.assertEquals(ContactUs.messageStatus(driver).getAttribute("class"), "alert alert-success");
     }
+
+    // ------- Test 9 & 10 --------
 
     @Test
     public void multiContactForm() throws Exception {
@@ -65,7 +69,7 @@ public class TestContactForm {
             Thread.sleep(1000);
 
             //Ovo resenje je pesacko, izbeci
-            Assert.assertEquals("alert alert-success", ContactUs.messageStatus(driver).getAttribute("class"));
+            Assert.assertTrue(ContactUs.messageStatus(driver).getText().equals(K.successfulMessage));
 //            System.out.println("Greska u redu "+(i + 2)); //ODKOMENTARISATI dok se ne isprave sve greske
 
             //Sledece resenje je malo lepse, ali ne prolazi

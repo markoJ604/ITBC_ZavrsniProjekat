@@ -1,5 +1,7 @@
 package Constants;
-//Class URL holds urls to different Web pages
+
+//------- Class URL holds urls to different Web pages -------
+
 public class URL {
     public static final String url = "http://automationpractice.com/index.php";
     public static final String summerDressURL = "http://automationpractice.com/index.php?id_category=11&controller=category";

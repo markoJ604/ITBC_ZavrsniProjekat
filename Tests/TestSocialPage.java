@@ -14,6 +14,8 @@ public class TestSocialPage {
 
     private static WebDriver driver;
 
+    // ------- Test 8 --------
+
     @Test
     public void testSocialPages() throws InterruptedException {
         driver = new ChromeDriver();

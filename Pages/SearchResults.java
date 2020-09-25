@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+// ------- Methods to check search results -------
+
 public class SearchResults {
 
     public static String headingCounter(WebDriver driver) {

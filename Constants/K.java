@@ -1,5 +1,7 @@
 package Constants;
-//Class K holds all Paths to different elements on Website
+
+//------- Class K holds all Paths to different elements on Website -------
+
 public class K {
 
     public static final String womenMenuXpath = "//a[@class='sf-with-ul'][contains(text(),'Women')]";
@@ -36,6 +38,8 @@ public class K {
     public static final String twitterXpath = "//li[@class='twitter']//a";
     public static final String youtubeXpath = "//li[@class='youtube']//a";
     public static final String googleplusXpath = "//li[@class='google-plus']//a";
+
+    public static final String successfulMessage = "Your message has been successfully sent to our team.";
 }
 
 

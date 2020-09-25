@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+//------- PreOrder page, methods to choose size and quantity of chosen item, add to cart and proceed to checkout -------
+
 public class PreOrder {
 
     public static WebElement getPlusSign(WebDriver driver) {

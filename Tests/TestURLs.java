@@ -26,15 +26,21 @@ public class TestURLs {
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     }
 
+    // ------- Test 1 --------
+
     @Test
     public void summerDressURL() {
         Assert.assertEquals(SummerDress.getWomenSummerDressURL(driver), URL.summerDressURL);
     }
 
+    // ------- Test 2 --------
+
     @Test
     public void summerDressURL2() {
         Assert.assertEquals(SummerDress.getDressSummerDressURL(driver), URL.summerDressURL);
     }
+
+    // ------- Test 3 --------
 
     @Test
     public void summerDressURL3() {

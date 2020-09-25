@@ -25,6 +25,8 @@ public class TestCart {
         sa = new SoftAssert();
     }
 
+    // ------- Test 4 & 5 --------
+
     @Test
     public void cartTest() throws InterruptedException {
         Utilities.mouseHover(driver, IndexPage.getWomenMenu(driver));
@@ -44,6 +46,8 @@ public class TestCart {
         sa.assertEquals(CheckOut.getItemQty(driver), "2");
         sa.assertAll();
     }
+
+    // ------- Test 6 --------
 
     @Test
 
